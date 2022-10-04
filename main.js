@@ -1,7 +1,7 @@
 const housesContainer = document.querySelector('#houses-container')
 const form = document.querySelector('form')
 
-const baseURL = `http://localhost:4004/api/houses`
+const baseURL = `http://127.0.0.1:5501/index.html`
 
 const housesCallback = ({ data: houses }) => displayHouses(houses)
 const errCallback = err => console.log(err)
